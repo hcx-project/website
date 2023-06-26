@@ -79,7 +79,7 @@ They should strive to break down the complexity of the domain into multiple simp
 <br/>
 
 ### Governance Body 
-The governance body comprises elected representatives from within the community and the anchor organisation (Swasth). These representatives serve as stewards of the protocol and work collaboratively to make decisions on behalf of the community. They are responsible for coordinating efforts, overseeing technical developments, establishing standards, and resolving governance-related matters. 
+The governance body comprises elected representatives from within the community and the anchor organisation (<a href="https://swasthalliance.org" style="color:#335CFF;" target="_blank">Swasth</a>). These representatives serve as stewards of the protocol and work collaboratively to make decisions on behalf of the community. They are responsible for coordinating efforts, overseeing technical developments, establishing standards, and resolving governance-related matters. 
 
 
 Community Engagement:
@@ -92,7 +92,7 @@ The governance structure is designed to continuously improve and refine its proc
 ### Goevrnance Process
 The broad outline of the process would be:
 
-1. Swasth will form a core governance council for specifications with representation from across the insurance ecosystem (insurance, TPA, policyhodler groups, service provider representatives, small provider associations, academic institutions/experts in the area, the regulator, and relevant public bodies).
+1. <a href="https://swasthalliance.org" style="color:#335CFF;" target="_blank">Swasth</a> will form a core governance council for specifications with representation from across the insurance ecosystem (insurance, TPA, policyhodler groups, service provider representatives, small provider associations, academic institutions/experts in the area, the regulator, and relevant public bodies).
 2. The governance council will facilitate the formation of domain-specific working groups, who
 will create clear criteria for the evaluation of a proposal.
 3. Ideas for changes/enhancement is proposed by one of the group members.

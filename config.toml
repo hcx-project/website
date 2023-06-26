@@ -5,6 +5,8 @@ description = "Open-source, community driven protocol for de decentralised Claim
 enableRobotsTXT = true
 enableGitInfo = true
 
+publishDir = "docs"
+
 # language settings
 contentDir = "content/en"
 defaultContentLanguage = "en"

@@ -123,7 +123,7 @@ if (!doNotTrack) {
         <main role="main" class="td-main">
             <section id="hero" class="row align-items-center text-center text-md-left">
     <div class="col-md-7">
-        <h1 class="title pt-5 pt-md-0">HCX Governance</h1>
+        <h1 class="title pt-5 pt-md-0">Governance - Principles and Approach</h1>
         <h2 class="subtitle pt-2 pt-md-0"></h2>
         
          
@@ -134,43 +134,82 @@ if (!doNotTrack) {
 </section>
             
 
-<section id="objective" class='governance-section'>
-<h2 id="objective">Objective</h2>
+<section id="goal" class="row align-items-center text-center text-md-left">
+  <div class="goal-wrapper row align-items-center">
+    <div class="col-md-8 my-2 my-lg-0">
+      <h2 class="section-head text-md-left">Objective</h2>
+      <p>
+        The HCX Protocol community is committed to establishing transparent and effective governance to ensure the integrity and sustainability of the protocol. The proposed governance structure is designed to encourage open participation, accountability, and decision-making processes that reflect the collective interests of the community.
+      </p>
+    </div>
+    <div class="row mx-auto col-md-4  ">
+      <div class="communityLinks d-flex justify-content-around mx-auto">
+        <a href="mailto:contact@hcxprotocol.io"><i class="fas fa-envelope" target="_blank"></i></a>
+        <a href="https://github.com/hcx-project" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://discord.gg/uhza5nr3sq" target="_blank"><i class="fab fa-discord"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="governance" class='governance-section'>
+<h2 id="key-governance-principles">Key governance principles</h2>
 <hr>
-<br />
-<p>Specifications are fundamental to the success of the envisioned claims network. Specifications need to create consensus amongst a broad base of health system stakeholders to ensure that they can act as this common foundation. This document proposes a governance approach for the open specifications in line with key design principles outlined in the National Digital Health Blueprint and further contextualized for HCX specifications.</p>
-<br />
-<h2 id="proposed-approach-and-process-for-specifications-at-swasth-pilot-period">Proposed Approach and Process for Specifications at Swasth (Pilot Period)</h2>
+<br/>
+<h5 id="openness-and-inclusivity">Openness and Inclusivity</h5>
+<p>The governance framework promotes open participation, welcoming diverse perspectives and contributions from all community members.</p>
+<h5 id="transparency">Transparency</h5>
+<p>The decision-making processes, rules, and activities of the governance body are transparent and accessible to the community. Important information, discussions, and updates are shared openly.</p>
+<h5 id="consensus-building">Consensus Building</h5>
+<p>The community strives to reach consensus through open dialogue and respectful discussions. Major decisions are made collectively, considering the viewpoints and expertise of community members.</p>
+<h5 id="accountability">Accountability</h5>
+<p>The governance body is accountable to the community. It ensures that decisions and actions are aligned with the community&rsquo;s best interests and the core principles of the HCX Protocol.</p>
+<h5 id="adaptability">Adaptability</h5>
+<p>The governance framework is designed to evolve and adapt as the community grows and the protocol develops. It allows for the incorporation of new ideas, emerging technologies, and changing needs.</p>
+<h2 id="key-protocol-design-principles">Key protocol design principles</h2>
 <hr>
-<br />
-<p>As evident, creating functional specifications will require a robust process and deep collaboration between multiple stakeholders. The process must:</p>
+</br>
+<h5 id="open">Open</h5>
+<p>Specifications must be designed to be open to support technology and promote vendor neutrality. They must be published under the most unrestricted license (Creative Commons or MIT license) as applicable to enable wider ecosystem participation and foster innovation through extensibility. Being open also helps leverage wider ecosystem expertise at the time of designing and evolving the specifications.</p>
+<h5 id="evolvable-and-extendable">Evolvable and Extendable</h5>
+<p>They must be designed to be evolvable over a period of time thereby helping adapt to changing needs. By being extendable they provide ecosystems with the capability to leverage these specifications for their context while maintaining interoperability.</p>
+<h5 id="interoperability">Interoperability</h5>
+<p>Given that the key role of HCX specifications is to create and enhance interoperability between diverse ecosystem participants, any feature added to the specification must ensure that it increases interoperability between implementations.</p>
+<h5 id="minimalistic-and-inclusive">Minimalistic and Inclusive</h5>
+<p>Minimalism is crucial to ensuring that specifications enable and do not restrict innovation or inclusion. In order to be inclusive while maintaining minimalism, before including any new feature/enhancements in the specification, proposers and reviewers should ask the following questions: 1. Do we need it? and, 2. Do we need it now? If the answer to both these questions is “Yes” then that feature may be included in the specification.</p>
+<h5 id="unification-over-standardisation">Unification over standardisation</h5>
+<p>There would be situations when not all the features or requirements of the specifications may be standardised (at least in near term), and may vary with context and ground realities. In such cases, the goal of specification should be to prioritise and harmonize those requirements/features such that there is an integrated set of requirements/features all stakeholders can agree with or at least accept. For example, insurance product-and-services value-set may be defined differently for different contexts (social vs private), then the specification should allow for the ecosystem to use any of these definitions based on context, and allow for the standardisation to happen as a natural consequence of ecosystem adoption rather than a forced adoption.</p>
+<h5 id="balance-data-privacy-and-security-with-data-empowerment">Balance data privacy and security with data empowerment</h5>
+<p>They must provide for the mechanisms to keep the data secure (e.g. mandating SSL for data in transit, requiring relevant data to be encrypted) and private (e.g. consent-based data access) while still allowing for mechanisms to exchange needed information between trusted parties.</p>
+<h5 id="provide-for-non-repudiability">Provide for non-repudiability</h5>
+<p>They must provide mechanisms to view and verify attribute trails - who accessed or updated what and when - through mechanisms like digital signatures and tamper-proof audit trails.</p>
+<h5 id="unbundled">Unbundled</h5>
+<p>They should strive to break down the complexity of the domain into multiple simple pieces thereby resulting in multiple simple specifications which can be bundled in a modular manner to suit the needed context and help solve dynamic challenges.</p>
+<h2 id="governance-approach">Governance Approach</h2>
+<hr>
+<br/>
+<h3 id="governance-body">Governance Body</h3>
+<p>The governance body comprises elected representatives from within the community and the anchor organisation (Swasth). These representatives serve as stewards of the protocol and work collaboratively to make decisions on behalf of the community. They are responsible for coordinating efforts, overseeing technical developments, establishing standards, and resolving governance-related matters.</p>
+<p>Community Engagement:
+The community is encouraged to actively engage in the governance process. Community members can contribute through discussions, proposing ideas, submitting feedback, participating in working groups, and taking part in the decision-making process. Regular updates, community meetings, and open forums provide opportunities for community members to voice their opinions and shape the direction of the protocol.</p>
+<p>Continuous Improvement:
+The governance structure is designed to continuously improve and refine its processes. The community regularly assesses the effectiveness of governance mechanisms, incorporating feedback and implementing improvements as necessary. This ensures that the governance framework remains robust, responsive, and aligned with the evolving needs of the community.</p>
+<h3 id="goevrnance-process">Goevrnance Process</h3>
+<p>The broad outline of the process would be:</p>
 <ol>
-<li>Enable the delivery of universal health coverage (UHC) in India</li>
-<li>Drive healthcare outcomes and inclusion as well as patient safety and privacy</li>
-<li><a href="https://confluence.hl7.org/pages/viewpage.action?pageId=66920956#UnderstandingtheStandardsProcess-consensus">Foster consensus</a>*</li>
-<li>Ensure content is <a href="https://confluence.hl7.org/pages/viewpage.action?pageId=66920956#UnderstandingtheStandardsProcess-fit">fit for purpose</a>*</li>
-<li>Ensure content is <a href="https://confluence.hl7.org/display/HL7/Understanding+the+Standards+Process#UnderstandingtheStandardsProcess-implementable">implementable</a>*</li>
-<li>Establish an appropriate <a href="https://confluence.hl7.org/display/HL7/Understanding+the+Standards+Process#UnderstandingtheStandardsProcess-community">implementer community</a>*</li>
-<li>Ensure ongoing <a href="https://confluence.hl7.org/display/HL7/Understanding+the+Standards+Process#UnderstandingtheStandardsProcess-maintenance">maintenance of the standards</a>*</li>
-</ol>
-<p>(* Points 3 to 7 have been adopted from the must-have criteria followed by HL7)</p>
-<p>Hence, the development and maintenance of standards must follow an open and consultative process with widely inclusive, committed groups that can bring together necessary skills, viewpoints, and networks.</p>
-<p>Swasth proposes to maintain and enhance specifications using an inclusive, open, and consultative process. The broad outline of the process would be:</p>
-<ol>
-<li>Swasth will form a governance council for specifications with representation from across the healthcare ecosystem (insurance, TPA, patient groups, provider representatives, small provider associations, academic institutions/experts in the area, the regulator, and relevant public bodies)</li>
-<li>The governance council will facilitate the formation of topic-specific working groups
-Working groups will create clear criteria for the evaluation of a proposal</li>
-<li>Ideas for new specifications/enhancement is proposed by one of the group members</li>
-<li>The working group evaluates the idea</li>
-<li>If approved, development/enhancement begins</li>
-<li>Resultant specifications/enhancement will be reviewed by peer group for implementability</li>
-<li>The resulting specifications/enhancement will be put out for public consultation</li>
-<li>The working group reviews public consultation feedback and incorporates the necessary changes. (Any inputs not included will receive responses too)</li>
-<li>Specifications will be published for wider adoption</li>
-<li>Specifications will be maintained in open repositories like GitHub, Confluent (or similar) based on the nature of the output</li>
-<li>Specifications are made available through most permissible licenses like MIT or Creative Commons</li>
-<li>Swasth will also create a fully independent ethics and conflicts committee to act as an appellate authority for all our work, including stewardship of specifications</li>
-<li>All deliberations, minutes, and documents produced by the ethics and conflicts committee, specifications governance council, and working groups will be made publicly available</li>
+<li>Swasth will form a core governance council for specifications with representation from across the insurance ecosystem (insurance, TPA, policyhodler groups, service provider representatives, small provider associations, academic institutions/experts in the area, the regulator, and relevant public bodies).</li>
+<li>The governance council will facilitate the formation of domain-specific working groups, who
+will create clear criteria for the evaluation of a proposal.</li>
+<li>Ideas for changes/enhancement is proposed by one of the group members.</li>
+<li>The working group evaluates the idea.</li>
+<li>If approved, development/enhancement begins.</li>
+<li>Resultant specifications will be reviewed by peer group for implementability.</li>
+<li>Specifications will be maintained in open repositories GitHub, Confluent (or similar), Terminology servers etc. based on the nature of the specification.</li>
+<li>The resulting specifications/enhancement will be put out for open consultation.</li>
+<li>The working group reviews public consultation feedback and incorporates the necessary changes. (Any inputs not included will receive responses too).</li>
+<li>Specifications shall be published for wider adoption.</li>
+<li>Specifications are made available through most permissible licenses like MIT or Creative Commons.</li>
+<li>In the due course of time, a fully independent ethics and conflicts committee to act as an appellate authority for all protocol related work, including oversight of governance body.</li>
+<li>All deliberations, minutes, and documents produced by the ethics and conflicts committee, specifications governance council, and working groups will be made publicly available.</li>
 </ol>
 <br />
 <br />
@@ -181,32 +220,9 @@ Working groups will create clear criteria for the evaluation of a proposal</li>
 
         </main>
         
-<footer class="bg-dark pt-5 mt-5 d-flex flex-column align-items-center">
- 
-&lt;!-
-  <section id="contactus" class="row align-items-center text-center text-lg-left">
-      <div class="goal-wrapper row position-static">
-          <div class="d-flex flex-column align-items-center w-100 pt-5">
-              <h2 class="section-head text-center">Contact Us</h2>
-              <p class="text-center">We want to hear from you. Write to us here:</p>
-              <form class="text-center">
-                  <div class="form-group">
-                      <input type="text" class="form-control" id="name" placeholder="Name*" aria-label="name" aria-describedby="name">
-                  </div>
-                  <div class="form-group">
-                      <input type="email" class="form-control" id="email" placeholder="Email*" aria-label="name" aria-describedby="email">
-                  </div>
-                  <div class="form-group">
-                      <textarea class="form-control" id="message" placeholder="Message*" rows="3"  aria-label="name" aria-describedby="message"></textarea>
-                  </div>
-                  <button type="submit" class="btn cta">Send</button>
-              </form>
-          </div>
-      </div>
-  </section>  
- -->
+<footer class="bg-dark pt-2 mt-2 d-flex flex-column align-items-center">
 
-  <section class="container-fluid pt-5 mx-sm-5">
+  <section class="container-fluid pt-2 mx-sm-2">
     <div class="col d-sm-flex flex-sm-wrap">
       <div class="col-sm-3 text-center py-2 order-sm-2">
         
@@ -239,7 +255,7 @@ Working groups will create clear criteria for the evaluation of a proposal</li>
       </div>
       <div class="col-sm-6 text-center py-2 order-sm-2">
         <small class="text-white">&copy; 2023 The HCX Authors. | Documentation Distributed under CC BY 4.0</small>
-        <p><small class="ml-1"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></small></p>
+        
         
       </div>
     </div>

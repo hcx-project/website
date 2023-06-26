@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://ig.hcxprotocol.io/website"
 title = "Hyper Claims Exchange"
 description = "Open-source, community driven protocol for de decentralised Claims data Exchange"
 

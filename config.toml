@@ -32,11 +32,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         pre = "<i class='fas fa-users pr-2'></i>"
         url = "/community"
     [[menu.main]]
-        name = "Resources"
-        weight = 3
-        pre = "<i class='fas fa-toolbox pr-2'></i>"
-        url = "/resources"
-    [[menu.main]]
         name = "Governance"
         weight = 4
         pre = "<i class='fas fa-landmark pr-2'></i>"

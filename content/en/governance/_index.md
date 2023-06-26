@@ -2,7 +2,7 @@
 title = "Governance"
 description = 'HCX Governance'
 bannerTitle = "HCX Governance"
-bannerUrl = "/images/faqs-banner.svg"
+bannerUrl = "../images/faqs-banner.svg"
 +++
 
 <section id="objective" class='governance-section'>

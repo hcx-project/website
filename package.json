@@ -1,7 +1,7 @@
 {
   "name": "HCX",
   "version": "0.0.1",
-  "description": "Health Specifications Exchange Website.",
+  "description": "Hyper Claims Exchange Website.",
   "main": "none.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

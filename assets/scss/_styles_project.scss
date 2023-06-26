@@ -1,0 +1,721 @@
+footer {
+  min-height: auto;
+}
+
+#contactus {
+  width: 100%;
+  @include media-breakpoint-up(sm) {
+    width: 60%;
+  }
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+// --------------------------------------------------
+// prevent overflow of long names in sidebar
+// --------------------------------------------------
+.td-sidebar-nav__section > ul {
+  overflow-wrap: break-word;
+}
+
+// --------------------------------------------------
+// custom navbar with larger logo, dropdown on mobile
+// --------------------------------------------------
+.td-navbar {
+  min-height: auto;
+  padding: 0.5rem 1rem;
+  
+
+  .navbar-brand {
+    margin: 0;
+    padding: 0;
+
+    .text-uppercase {
+      display: none;
+    }
+
+    .navbar-logo {
+      svg {
+        z-index: 33;
+        padding: 10px;
+        height: 4rem;
+        width: 6rem;  
+
+        @include media-breakpoint-down(sm) {
+          width: 80px;
+          height: auto;
+          padding: 6px;
+        }
+      }
+    }
+  }
+
+  .navbar-nav {
+    @include media-breakpoint-down(md) {
+      font-size: .875rem;
+      .dropdown {
+        min-width: inherit;
+      }
+    }
+  }
+}
+
+.td-sidebar {
+  padding-bottom: 0.5rem;
+
+  .td-sidebar__inner {
+    padding-top: 30px;
+
+    @include media-breakpoint-down(md) {
+      padding-top: 10px;
+    }
+  }
+}
+
+
+// --------------------------------------------------
+// 404 page
+// --------------------------------------------------
+.error-page {
+  margin-top: 120px;
+
+  ul {
+    margin-bottom: 50px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+
+  li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-top: 100px;
+  }
+
+  @media (max-width: 767px) {
+    margin-top: 50px;
+  }
+}
+
+// --------------------------------------------------
+// for tabbed code blocks
+// --------------------------------------------------
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+.td-content > ul li,
+.td-content > ol li.nav-item {
+  margin-bottom: 0px;
+}
+
+.td-content .tab-content .highlight {
+  margin: 0;
+}
+
+.tab-pane {
+  border-radius: 0.25rem;
+  padding: 0 16px 16px;
+
+  border: 1px solid #dee2e6;
+
+  &:first-of-type.active {
+    border-top-left-radius: 0;
+  }
+}
+
+nav.foldable-nav .ul-1 .with-child>label:hover:before {
+  transform: none;
+}
+
+nav.foldable-nav .ul-1 .with-child>input:checked~label:hover:before {
+  transform: rotate(90deg) !important;
+}
+
+body {
+  color: $text-secondary;
+  background-color: $lightgray;
+}
+
+.communityLinks {
+  gap: 0.5rem;
+
+  a {
+    color: #000;
+    border-radius: 50%;
+    padding: 0.75rem 1rem;
+    font-size: 1.25rem;
+    background-color: $lightgray;
+    cursor: pointer;
+  }
+
+    @include media-breakpoint-up(md) {
+      gap: 1rem;
+
+      a {
+        font-size: 1.5rem;
+      }
+    }
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  background-image: none;
+
+  @include media-breakpoint-up(lg) {
+    border-radius: 1.5rem;
+    padding: 0.5rem 2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .ctaWrapper {
+    gap: 3rem;
+  }
+  
+  form {
+    width: 50%;
+  }
+}
+
+.goal-wrapper {
+  position: relative;
+  width: 100%;
+  top: -2rem;
+  background-color: $secondary;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+  padding: 1rem;
+  margin: 0 1rem;
+}
+
+
+.hcx-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+#goal {
+  padding: 0;
+
+  @include media-breakpoint-up(md) {
+      padding: 0 2rem;
+  
+    .goal-wrapper {
+      top: -2.5rem;
+      padding: 1.5rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    padding: 0 5rem;
+  }
+}
+
+p {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.td-navbar .navbar-nav .nav-link {
+  color: $secondary;
+  text-shadow: none;
+
+  &:hover, &:focus {
+    text-shadow: $lightgray;
+  }
+}
+
+#hero {
+  background-color: $primary;
+  color: $secondary;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    .btn+.btn {
+      margin-left: 1.5rem;
+    }
+  }
+}
+
+.btn {
+  width: 7rem;
+  font-size: 0.85rem;
+  line-height: 2;
+
+  @media screen and (min-width: 374px) {
+    width: 9rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  @include media-breakpoint-down(lg) {
+    padding: 0.25rem 0.5rem;
+    border-radius: 1.25rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 12rem;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.3;
+
+  @include media-breakpoint-down(md) {
+    letter-spacing: -2px;
+  }
+
+  @include media-breakpoint-up(md) {
+    font-size: 3rem;
+  }
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 1rem;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1.5rem;
+  }
+}
+
+.text-info {
+  color: $primary;
+}
+
+.cta {
+  background-color: $cta;
+
+  &:hover {
+    background-color: $cta-dark;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  }
+}
+
+.hcx-cta {
+  background-color: $cta;
+
+  &:hover {
+    background-color: $cta-dark;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  }
+}
+
+// Front page styling
+.card-img-top {
+  object-fit: scale-down;
+}
+
+.td-default main section {
+  padding: 2rem 1rem ;
+
+  @include media-breakpoint-up(md) {
+      padding: 2rem 2rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 2rem 5rem;
+}
+}
+
+.section-head {
+  font-size: 1.75em;
+  color: $text-primary;
+  font-weight: bold;
+  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 2.25em;
+  }
+}
+
+.hero {
+  font-size: 2.5em;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 3em;
+  }
+}
+
+.section-subhead {
+  display: inline-block;
+  font-size: 1em;
+  color: $primary;
+  font-weight: bold;
+  padding: 2em 0 0.5em;
+  margin: 0;
+  border-bottom: 0.25em solid $primary;
+}
+
+.impText {
+  color: $primary;
+}
+
+.contain {
+  margin: 0 auto;
+  max-width: 1200px; 
+}
+
+.image {
+  display: block; }
+  .image img {
+    display: block;
+    width: 100%;
+    height: auto; }
+  .image.left, .image.right {
+    max-width: 45%; }
+    .image.left::after, .image.right::after {
+      clear: both;
+      content: "";
+      display: block; }
+  .image.left {
+    float: left;
+    margin: 0 1.5em 1.5em 0; }
+  .image.right {
+    float: right;
+    margin: 0 0 1.5em 1.5em; }
+
+  #objective ~ ol li {
+    font-weight: 600;
+  }
+
+
+hr {
+  height: 2px;
+  background-color: $primary-dark;
+  border: none;
+}
+
+.control {
+  border: none;
+  width: auto;
+  opacity: 0.25;
+  color: #000;
+}
+
+#lead {
+  color: $secondary;
+  font-weight: 500;
+  padding-top: 0 !important;
+}
+
+.pt-6 {
+  padding-top: 6em !important;
+}
+
+#stakeholders, #benefits, #resources {
+  .card {
+    align-items: center;
+    border-radius: 1em;
+    flex: 0 0 49%;
+    border: none;
+  }
+
+  .card-title {
+    color: $text-primary;
+    font-weight: 700;
+    font-size: 1em;
+  }
+
+  .card-text {
+    color: $text-secondary;
+    font-weight: 400;
+    font-size: 1em;
+  }
+}
+
+#stakeholders {
+  @include media-breakpoint-up(md) {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#benefits {
+  @include media-breakpoint-up(md) {
+    img {
+      width: 100%;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    img {
+      width: 75%;
+    }
+  }
+}
+
+#benefits .card {
+    height: 6.25rem;;
+}
+
+#resources {
+  @include media-breakpoint-up(md) {
+    .card {
+      flex: 0 0 30%;
+    }
+  }
+}
+
+
+
+#partner-group {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  gap: 2em;
+}
+
+.partner-img-wrapper {
+  width: 6em;
+  height: auto;
+
+  @include media-breakpoint-up(md) {
+    width: 9em;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .card {
+    max-width: 100%;
+  }
+}
+
+.faq {
+  position: relative;
+  top: 100px;
+}
+
+.wrapper {
+  gap: 0.5em;
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    row-gap: 1em;
+    column-gap: 0;
+}
+}
+
+@media (min-width: 900px) {
+  .wrapper {
+    row-gap: 1em;
+    column-gap: 0.25em;
+}
+}
+
+.volunteer {
+  width: 45%;
+  border: none;
+  border-radius: 0.5em;
+  background-color: transparent;
+  font-size: 0.75rem;
+
+  // &:hover {
+  //   box-shadow: inset 0 0 0 1000px $primary-rgba !important;
+  // }
+
+  @include media-breakpoint-up(md) {
+    width: 33%;
+    font-size: 1rem;
+
+    .org {
+      font-size: 0.85rem;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    text-align: left;
+    width: 24%;
+  }
+}
+
+.volunteer-badge {
+  width: 2.25rem;
+  height: 2.25rem;
+  color: white;
+  background-color: $primary;
+  display: inline-block;
+  padding: 0.25em 0.25em;
+  font-size: 150%;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  border-radius: 50%;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  @include media-breakpoint-up(md) {
+    width: 3rem;
+    height: 2.5rem;
+    line-height: 1.25;
+  }
+}
+
+.volunteer-title {
+    border: none;
+    color: $text-primary;
+    font-weight: 400; 
+    transition: color 0.2s ease-in, font-weight 0.2s ease-in;
+
+    &:hover {
+      color: $primary;
+      font-weight: bold;
+      z-index: 1;
+      text-decoration: none;
+    }
+}
+
+.org:hover {
+  color: $primary;
+}
+
+.accordion {
+  > .card {
+      border: none;
+      border-radius: 1rem;
+      max-width: 100%;
+      
+      &:first-child {
+        border-top: 0;
+      }
+
+      > .card-header {
+        margin-bottom: 0;
+        border: none;
+        padding: 0;
+        background-color: $secondary;
+        }
+
+      > .collapse {
+        border-width: 0;
+      }
+  }
+
+  .card+.card {
+    margin-top: 1rem;
+  }
+  
+}
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: $text-primary;
+  text-align: left;
+  background-color: $secondary;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
+
+  &:not(.collapsed) {
+    color: $primary;
+
+    &::after {
+      font-family: "Font Awesome 5 Free"; 
+      font-weight: 900; 
+      content: "\f078";
+      transform: rotate(-180)deg;
+      -ms-transform: rotate(-180deg);
+      -moz-transform: rotate(-180deg);
+      -webkit-transform: rotate(-180deg);
+    }
+  }
+  
+  &::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f078";
+    transition: transform 0.2s ease-in-out;
+  }
+
+  &:hover {
+    z-index: 2;
+  }
+
+  &:focus {
+    z-index: 3;
+    border-color: $primary;
+    outline: 0;
+  }
+}
+
+.h4 h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.nav-pills .nav-link {
+  border: 1px solid $primary;
+  font-weight: 600;
+  background-color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}

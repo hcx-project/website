@@ -97,7 +97,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   twitter = "hcx" # add your twitter profile
 
   copyright = "The HCX Authors."
-  privacy_policy = "https://policies.google.com/privacy"
+  #privacy_policy = "https://policies.google.com/privacy"
 
   # Google Custom Search Engine ID.
   #gcs_engine_id = ""
@@ -155,20 +155,20 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Links in footer
   [params.links]
     [[params.links.user]]
-      name = "Twitter"
-      url = "https://twitter.com/"
-      icon = "fab fa-twitter"
-      desc = "Follow us on Twitter to get the latest news!"
+      name = "Mail"
+      url = "mailto:contact@hcxprotocol.io"
+      icon = "fas fa-envelope"
+      desc = "Mail us"
     [[params.links.user]]
-      name = "Mailing list"
-      url = "/docs/about/community/#mailing-list"
-      icon = "fa fa-envelope"
-      desc = "Join the HCX Mailing List!"
+      name = "Github"
+      url = "https://github.com/hcx-project"
+      icon = "fab fa-github"
+      desc = "Check out our Github!"
     [[params.links.user]]
-      name = "Weekly Community Call"
-      url = "/docs/about/community/#weekly-community-call"
-      icon = "fa fa-calendar"
-      desc = "Join the weekly HCX Community Call!"
+      name = "Join community channel"
+      url = "https://discord.gg/uhza5nr3sq"
+      icon = "fab fa-discord"
+      desc = "Join the community discord channel"
 
 [module]
   proxy = "direct"

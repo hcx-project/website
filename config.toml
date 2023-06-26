@@ -31,6 +31,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         weight = 2
         pre = "<i class='fas fa-users pr-2'></i>"
         url = "/community"
+#    [[menu.main]]
+#        name = "Resources"
+#        weight = 3
+#        pre = "<i class='fas fa-toolbox pr-2'></i>"
+#       url = "/resources"    
     [[menu.main]]
         name = "Governance"
         weight = 4
@@ -41,11 +46,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         weight = 5
         pre = "<i class='fas fa-question-circle pr-2'></i>"
         url = "/faq"
-    [[menu.main]]
-        name = "Blog"
-        weight = 6
-        pre = "<i class='fas fa-rss pr-2'></i>"
-        url = "/blog"
+#    [[menu.main]]
+ #       name = "Blog"
+  #      weight = 6
+   #     pre = "<i class='fas fa-rss pr-2'></i>"
+    #    url = "/blog"
 
 ###############################################################################
 # Docsy - Goldmark markdown parser

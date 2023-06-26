@@ -101,7 +101,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   github = "swasth" # add your github profile name
   twitter = "hcx" # add your twitter profile
 
-  copyright = "The HCX Authors."
+  copyright = "The HCX Community"
   #privacy_policy = "https://policies.google.com/privacy"
 
   # Google Custom Search Engine ID.
